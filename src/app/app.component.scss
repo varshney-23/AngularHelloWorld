@@ -1,0 +1,30 @@
+/* Full page centering */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    text-align: center;
+}
+
+/* Image styling */
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Text styling */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
